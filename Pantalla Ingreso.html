@@ -5,10 +5,25 @@
 <title>El primer documento HTML</title>
 </head>
 <body>
-<p>El lenguaje HTML es <strong>tan sencillo</strong> que
-prácticamente se entiende sin estudiar el significado de sus
-etiquetas principales.</p>
-<p>Además de textos en <strong>negrita</strong>, tambien se
-pueden poner <em>en cursiva</em> o <del>tachados</del>.</p>
+<h1>Inicio de sesión</h1>
+
+ <form action="action_page.php">
+  
+  <div class="container">
+    <label for="uname"><b>Usuario</b></label>
+    <input type="text" placeholder="Nombre de usuario" name="uname" required>
+
+    <label for="psw"><b>Contraseña</b></label>
+    <input type="password" placeholder="Contraseña" name="psw" required>
+
+    <button type="submit">Ingresar</button>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+  </div>
+</form> 
+
+ 
+ 
 </body>
 </html>
